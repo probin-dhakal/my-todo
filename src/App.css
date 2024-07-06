@@ -1,0 +1,81 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.checked{
+   text-decoration: line-through;
+}
+
+
+
+.form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form form input{
+   margin-right: 20px;
+    padding: 5px;
+    width: 300px;
+    border-radius: 10px;
+    height: 30px;
+     font-size: 18px;
+
+}
+
+.form form button{
+    height: 40px;
+    padding: 5px;
+    width: 60px;
+    border-radius: 15px;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    background-color: rgb(86, 86, 246);
+}
+
+
+.form form button:hover{
+    transition: all 0.3s ease-in-out;
+   background-color: rgb(232, 52, 145);
+   scale: 1.1;
+}
+
+.clearAll{
+    padding: 7px;
+    font-size: large;
+    font-weight: 900;
+    background-color: red;
+    color: white;
+   border-radius: 10px;
+   margin-top: 50px;
+}
+
+.clearAll:hover{
+    transition: all 0.3s ease-in-out;
+    scale: 1.1;
+}
+
+.todoItem{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    min-width: 300px;
+    padding: 2px;
+    border-radius: 30px;
+    border: 2px solid black;
+    height: fit-content;
+
+}
+
+
+
